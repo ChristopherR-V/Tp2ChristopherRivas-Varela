@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeleTp" id="71656D2E-FFA3-D0C8-E2B8-40C9B95516F3" version="3.5">
+<createdBy>2285504</createdBy>
+<createdTime>2023-05-08 14:50:44 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>71656D2E-FFA3-D0C8-E2B8-40C9B95516F3</designId>
+</OSDM_Design>
