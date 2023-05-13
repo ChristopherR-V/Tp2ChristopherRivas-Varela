@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D6C17AF-E34D-461B-B730-C1657D67AAD9" name="Jeu">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:25:46 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="titre_jeu" id="69BDE5A3-A6B9-1F95-ECDA-67A9C6D2FAA7">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:29:12 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_lancement" id="2A19BC6E-F8B9-FB2D-34BF-E85671EBB409">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:30:04 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_console" id="A00CB9B2-0265-2D56-C361-9A5363F6A3BF">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:30:41 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="série" id="9EEF2D42-83DD-F582-D140-A7B565FA4F75">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 00:02:19 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="catégorie_jeu" id="1E060CE4-1429-DED8-E6A5-EA1EE41ED0B8">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 00:02:51 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classification_age" id="554A0BEC-FC3F-978A-FEF1-ABC71DE4FCF0">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 00:03:25 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="DC8736B5-9D27-7E71-1C3D-63C035223D92">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 00:20:24 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_magasin" id="ACC12E83-2DF0-8DA3-98D3-B69ECD3191F4">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 01:36:07 UTC</createdTime>
+<generatorID>5C1464E9-D409-0A03-06E7-526AC3E4CB6E</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<referedAttribute>A79CF3AA-FC46-96C8-B60B-C4BD9A39E769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A97D686-237B-5973-12D7-F04BC90F6C72" name="Jeu PK">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 01:09:43 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69BDE5A3-A6B9-1F95-ECDA-67A9C6D2FAA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

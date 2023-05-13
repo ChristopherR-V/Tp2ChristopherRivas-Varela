@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7382DA4-742B-E788-548A-191BE8BE281E" name="Magasin">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:07:44 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nom_magasin" id="A79CF3AA-FC46-96C8-B60B-C4BD9A39E769">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:14:37 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="DA79A4DE-48F9-F705-3166-1AFC26B6B839">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:16:04 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="FD087542-EEEA-A06C-8E2F-03D9C75E933A">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:17:45 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jours_ouverture" id="0C44756B-0688-CA3A-A532-BA82A811822A">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:20:56 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_creation_etablissement" id="2175C8E9-47E5-BADF-5FB2-E4378EF25514">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-12 23:23:16 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC988570-4C28-A42F-A8DD-33D3B872EA0A" name="Magasin PK">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-13 01:09:18 UTC</createdTime>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A79CF3AA-FC46-96C8-B60B-C4BD9A39E769</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
