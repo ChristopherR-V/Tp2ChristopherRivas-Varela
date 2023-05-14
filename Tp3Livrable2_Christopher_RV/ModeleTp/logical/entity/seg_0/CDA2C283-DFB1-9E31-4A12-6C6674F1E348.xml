@@ -18,7 +18,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date_lancement" id="D16E6492-3461-8AC1-5036-21AC426D5A6C">
@@ -46,7 +46,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="marque" id="0F06DC52-50EC-089D-15E5-1A2E929E3932">
@@ -55,7 +55,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nom_magasin" id="BD115F74-F4C0-253E-B68C-5D0CB982E4EB">

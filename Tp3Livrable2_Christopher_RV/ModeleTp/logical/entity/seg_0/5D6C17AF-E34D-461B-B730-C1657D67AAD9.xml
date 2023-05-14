@@ -18,7 +18,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="date_lancement" id="2A19BC6E-F8B9-FB2D-34BF-E85671EBB409">
@@ -36,7 +36,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="série" id="9EEF2D42-83DD-F582-D140-A7B565FA4F75">
@@ -46,7 +46,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="catégorie_jeu" id="1E060CE4-1429-DED8-E6A5-EA1EE41ED0B8">
@@ -56,7 +56,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="classification_age" id="554A0BEC-FC3F-978A-FEF1-ABC71DE4FCF0">
@@ -72,8 +72,9 @@
 <createdBy>chris</createdBy>
 <createdTime>2023-05-13 00:20:24 UTC</createdTime>
 <ownerDesignName>ModeleTp</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nom_magasin" id="ACC12E83-2DF0-8DA3-98D3-B69ECD3191F4">

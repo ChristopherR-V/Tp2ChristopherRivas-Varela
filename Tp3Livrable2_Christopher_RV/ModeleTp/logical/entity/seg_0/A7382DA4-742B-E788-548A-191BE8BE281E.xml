@@ -36,6 +36,7 @@
 <ownerDesignName>ModeleTp</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="jours_ouverture" id="0C44756B-0688-CA3A-A532-BA82A811822A">
