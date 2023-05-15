@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59A3462B-95F6-9E32-4022-DC735C773B2F" name="Magasin">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>A7382DA4-742B-E788-548A-191BE8BE281E</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nom_magasin" id="5442EF67-E753-0AF2-1710-1E4A080810D7">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>A79CF3AA-FC46-96C8-B60B-C4BD9A39E769</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse" id="22EEED42-9FC8-4384-28C0-7C33EA5B0EEF">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>DA79A4DE-48F9-F705-3166-1AFC26B6B839</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="14720BE7-F1E9-C18E-7C35-53B3C88F30AB">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>FD087542-EEEA-A06C-8E2F-03D9C75E933A</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jours_ouverture" id="69C5DCDE-651D-9DDC-9604-CC32B1E3AB9C">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>0C44756B-0688-CA3A-A532-BA82A811822A</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_creation_etablissement" id="C8876F18-C0E2-F422-320A-98444667C906">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>2175C8E9-47E5-BADF-5FB2-E4378EF25514</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47E5470F-E331-EB94-8857-C06487CA0E3D" name="Magasin_PK">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>BC988570-4C28-A42F-A8DD-33D3B872EA0A</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5442EF67-E753-0AF2-1710-1E4A080810D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="034A1640-CBE3-8BB7-3161-237C67E2A69C" name="Jeu">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>5D6C17AF-E34D-461B-B730-C1657D67AAD9</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="titre_jeu" id="439592ED-2776-A2B1-7C4E-05A7D4D50D23">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>69BDE5A3-A6B9-1F95-ECDA-67A9C6D2FAA7</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_lancement" id="FD091400-3A74-0E83-E349-2C5B88B79DA3">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>2A19BC6E-F8B9-FB2D-34BF-E85671EBB409</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_console" id="D8EB5144-DB7C-0F2F-5FC2-FFE86D03313B">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>A00CB9B2-0265-2D56-C361-9A5363F6A3BF</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="série" id="90F3A9DB-8DF7-F1FB-3910-DE27B019DFA5">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>9EEF2D42-83DD-F582-D140-A7B565FA4F75</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="catégorie_jeu" id="C8285773-B3FD-42CB-D249-B557C7C5B0F7">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>1E060CE4-1429-DED8-E6A5-EA1EE41ED0B8</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classification_age" id="C865F62E-1F77-B968-32CC-129DF0C5EC7B">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>554A0BEC-FC3F-978A-FEF1-ABC71DE4FCF0</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix" id="8372FFCD-654A-5D51-354F-7BC9F1A975F0">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>DC8736B5-9D27-7E71-1C3D-63C035223D92</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Magasin_nom_magasin" id="007CAC3A-7359-1F9D-6017-D671F906AB82">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>ACC12E83-2DF0-8DA3-98D3-B69ECD3191F4</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E43D2E3-DFDE-91A1-9AA0-65EC61196A22" referredColumn="5442EF67-E753-0AF2-1710-1E4A080810D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EAF9F52-6EDE-57A2-E555-8B028A2E39B8" name="Jeu_PK">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>7A97D686-237B-5973-12D7-F04BC90F6C72</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="16456840-6E49-84D0-BC1B-390CF2F4B463" name="Jeu_Magasin_FK">
+<createdBy>chris</createdBy>
+<createdTime>2023-05-15 13:11:29 UTC</createdTime>
+<generatorID>5C1464E9-D409-0A03-06E7-526AC3E4CB6E</generatorID>
+<ownerDesignName>ModeleTp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="007CAC3A-7359-1F9D-6017-D671F906AB82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
