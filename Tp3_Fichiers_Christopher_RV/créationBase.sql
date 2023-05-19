@@ -108,14 +108,76 @@ FROM MAGASIN
 SELECT*
 FROM CONSOLE
 
+connect sys/oracle as sysdba
 
 CREATE USER RESTSCOTT IDENTIFIED BY oracle DEFAULT TABLESPACE
 users QUOTA UNLIMITED ON users;
+
 GRANT CREATE SESSION, CREATE TABLE, CREATE PROCEDURE,
 CREATE VIEW, CREATE SEQUENCE, CREATE TRIGGER,
 COMMENT ANY TABLE TO RESTSCOTT;
 
-grant dba to restscott;
+grant dba to RESTSCOTT;
 
+GRANT INHERIT PRIVILEGES ON USER SCOTT TO RESTSCOTT
 
+BEGIN
+ ORDS.enable_schema(
+ p_enabled => TRUE,
+ p_schema => 'SCOTT',
+ p_url_mapping_type => 'BASE_PATH',
+ p_url_mapping_pattern => 'hr2', --premiere partie url pour interroger les données
+ p_auto_rest_auth => FALSE
+ );
+ COMMIT;
+END;
+/
+
+BEGIN
+ ORDS.enable_object(
+ p_enabled => TRUE, -- Default  { TRUE | FALSE }
+ p_schema => 'SCOTT',
+ p_object => 'AUTRE_MARCHANDISE',
+ p_object_type => 'TABLE', -- Default  { TABLE | VIEW }
+ p_object_alias => 'AUTREMARCHANDISE'
+ );
+ COMMIT;
+END;
+/
+
+BEGIN
+ ORDS.enable_object(
+ p_enabled => TRUE, -- Default  { TRUE | FALSE }
+ p_schema => 'SCOTT',
+ p_object => 'CONSOLE',
+ p_object_type => 'TABLE', -- Default  { TABLE | VIEW }
+ p_object_alias => 'CONSOLE'
+ );
+ COMMIT;
+END;
+/
+
+BEGIN
+ ORDS.enable_object(
+ p_enabled => TRUE, -- Default  { TRUE | FALSE }
+ p_schema => 'SCOTT',
+ p_object => 'JEU',
+ p_object_type => 'TABLE', -- Default  { TABLE | VIEW }
+ p_object_alias => 'JEU'
+ );
+ COMMIT;
+END;
+/
+
+BEGIN
+ ORDS.enable_object(
+ p_enabled => TRUE, -- Default  { TRUE | FALSE }
+ p_schema => 'SCOTT',
+ p_object => 'MAGASIN',
+ p_object_type => 'TABLE', -- Default  { TABLE | VIEW }
+ p_object_alias => 'MAGASIN'
+ );
+ COMMIT;
+END;
+/
 

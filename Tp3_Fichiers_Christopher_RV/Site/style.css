@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(213, 213, 213);
+}
+
+header{
+    background-color: #DE1F1F;
+    height: 90px;
+}
+
+.imageLogo{
+    height: 50%;
+    width:50%;
+}
+
+.imageSac, .imageJeu{
+    height: 50px;
+    width: 50px;
+}
+
+.imageMagasin{
+    height: 50px;
+    width: 50px;
+    padding-left: 245px;
+}
+
+.texteMagasin{
+    padding-left: 150px;
+}
+
+.divGaucheHeader{
+    float: left;
+    width: 40%;
+}
+
+.divDroitHeader{
+    float: right;
+    width: 60%;
+    padding-top: 10px;
+}
+
+.divDroitHeader, a{
+    font-size: 14px;
+    align-self: center;
+}
+
+.divLiensGauche{
+    float:left;
+    width: 40%;
+    height: 70px;
+}
+
+.divLiensDroite{
+    float: right;
+    width: 60%;
+    height: 70px;
+}
+
+.divLiensDroite2{
+    float: right;
+    width:50%;
+    height:70px;
+}
+
+.divLiensGauche2{
+    float: left;
+    width:50%;
+    height:70px;
+}
+
+.imagesLiensHeader{
+    float:left;
+    width:50%;
+}
+
+.texteLienHeader{
+    float:right;
+    width: 50%;
+    padding-top: 10px;
+    
+}
