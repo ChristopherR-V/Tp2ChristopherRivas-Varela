@@ -3,13 +3,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    
+}
+
+a:link, a:visited,a:hover{
+    color: black;
+}
+
+a:active{
+    color:blue;
+}
+
 body{
     background-color: rgb(213, 213, 213);
 }
 
 header{
     background-color: #DE1F1F;
-    height: 90px;
 }
 
 .imageLogo{
@@ -17,69 +29,60 @@ header{
     width:50%;
 }
 
-.imageSac, .imageJeu{
-    height: 50px;
-    width: 50px;
+.imagesHeader{
+    height: 30px;
+    width: 30px;
 }
 
-.imageMagasin{
-    height: 50px;
-    width: 50px;
-    padding-left: 245px;
+header ul{
+    display: flex;
+    list-style-type:none;
+    justify-content:space-between;
+    align-items: center;
 }
 
-.texteMagasin{
-    padding-left: 150px;
+header li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
 }
 
-.divGaucheHeader{
-    float: left;
-    width: 40%;
+.imageLogoHeader{
+    height: 80px;
+    width: 170px;
 }
 
-.divDroitHeader{
-    float: right;
-    width: 60%;
-    padding-top: 10px;
+.liLogo{
+    padding-left: 50px;
 }
 
-.divDroitHeader, a{
-    font-size: 14px;
-    align-self: center;
+.divContenue{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background-color: #f0f0f0;
 }
 
-.divLiensGauche{
-    float:left;
-    width: 40%;
-    height: 70px;
+.divContenue, h2{
+    text-align: center;   
 }
 
-.divLiensDroite{
-    float: right;
-    width: 60%;
-    height: 70px;
+.divContenue, p{
+/* text-align:left; */
 }
 
-.divLiensDroite2{
-    float: right;
-    width:50%;
-    height:70px;
+.magasinsInfo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 32px;
 }
 
-.divLiensGauche2{
-    float: left;
-    width:50%;
-    height:70px;
+.divRight{
+    padding-left: 32px;
+    width: 50%;;
 }
-
-.imagesLiensHeader{
-    float:left;
-    width:50%;
-}
-
-.texteLienHeader{
-    float:right;
+.divRight p{
+    margin-bottom: 16px;
     width: 50%;
-    padding-top: 10px;
-    
 }
