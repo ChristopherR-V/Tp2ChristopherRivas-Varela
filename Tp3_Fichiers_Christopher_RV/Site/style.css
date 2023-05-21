@@ -17,7 +17,7 @@ a:active{
 }
 
 body{
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(255, 255, 255);
 }
 
 header{
@@ -60,7 +60,8 @@ header li{
     margin: auto;
     width: 70%;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
+    height: 100vh;
 }
 
 .divContenue, h2{
@@ -68,7 +69,7 @@ header li{
 }
 
 .divContenue, p{
-/* text-align:left; */
+text-align:left;
 }
 
 .magasinsInfo{
@@ -82,7 +83,20 @@ header li{
     padding-left: 32px;
     width: 50%;;
 }
+
 .divRight p{
     margin-bottom: 16px;
     width: 50%;
 }
+
+#divJeuConsole{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.iconeJeuConsole{
+    height: 75px;
+    width: 75px;
+}
+

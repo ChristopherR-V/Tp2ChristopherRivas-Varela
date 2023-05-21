@@ -26,15 +26,26 @@ fetch(url)
             image.setAttribute("src", imageUrl);
             append(divImage, image);
             append(divConteneur,divImage);
+            debugger;
 
+
+            let pNumero = createNode("p");
             let pNomMagasin = createNode("p");
+            let pAdresse = createNode("p");
+            let pJoursOuverture = createNode("p");
+            let pDateCreation = createNode("p");
+
             pNomMagasin.textContent = `Nom du Magasin: ${magasin.nom_magasin}`;
+            pNumero.textContent = `Numero: ${magasin.numero}`
+            pAdresse.textContent = `Jours d' Ouverture: ${magasin.jours_ouverture}`
+            pDateCreation.textContent = `Date de Creation: ${magasin.date_creation.substr(0,10)}`
+            
 
             append(div, pNomMagasin);
-
-
-
-
+            append(div, pNumero);
+            append(div, pAdresse);
+            append(div, pJoursOuverture);
+            append(div, pDateCreation);
 
             append(divConteneur, div);
             append(magasins_ul, divConteneur);
