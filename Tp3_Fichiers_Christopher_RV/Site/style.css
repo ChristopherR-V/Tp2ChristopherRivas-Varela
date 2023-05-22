@@ -13,7 +13,7 @@ a:link, a:visited,a:hover{
 }
 
 a:active{
-    color:blue;
+    color:rgb(137, 137, 137);
 }
 
 body{
@@ -89,13 +89,13 @@ text-align:left;
     width: 50%;
 }
 
-#divJeuConsole{
+#divJeuConsole, #divJeuConsole2, #contenueAutreMarchandise{
     display: flex;
     align-items: center;
     text-align: justify;
 }
 
-.iconeJeuConsole{
+.iconeJeuConsole, .iconeAutreMarchandise{
     height: 75px;
     width: 75px;
 }

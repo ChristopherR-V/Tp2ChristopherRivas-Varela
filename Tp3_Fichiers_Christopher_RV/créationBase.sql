@@ -1,3 +1,4 @@
+--Creation des tables
 CREATE TABLE MAGASIN(
     nom_magasin varchar(255) primary key not null, 
     adresse varchar(255) not null unique,
@@ -34,10 +35,10 @@ CREATE TABLE CONSOLE(
     
 );
 
-
+-- J' avais oublie de mettre le nom du magasin dans les colonnes des tableaux;
 ALTER TABLE CONSOLE 
     ADD  nom_magasin varchar(255);
-    
+--Pour definir nom_magasin comme clee etrangere
 ALTER TABLE CONSOLE    
  ADD  FOREIGN KEY(nom_magasin) REFERENCES MAGASIN(nom_magasin); 
 
@@ -52,7 +53,7 @@ ALTER TABLE AUTRE_MARCHANDISE
     
 ALTER TABLE AUTRE_MARCHANDISE
     ADD  FOREIGN KEY(nom_magasin) REFERENCES MAGASIN(nom_magasin); 
-    
+-- Insertion des valeurs    
  INSERT INTO MAGASIN(nom_magasin, adresse, numero, jours_ouverture, date_creation)
     VALUES('ei games','23425 saint-laurent','514-456-7563','Lundi à Vendredi', '1997-10-22');
 
@@ -95,7 +96,7 @@ INSERT INTO autre_marchandise(type_marchandise, date_peremption, nom_produit, pr
 INSERT INTO autre_marchandise(type_marchandise, nom_produit, prix, nom_magasin)
     VALUES ('Chandail', 'Chandail nintendo',20,'Jeux en masse');    
     `
-    
+--Pour verifier que toutes les valeurs sont corrects    
 SELECT*
 FROM autre_marchandise;
 
@@ -108,8 +109,8 @@ FROM MAGASIN
 SELECT*
 FROM CONSOLE
 
-connect sys/oracle as sysdba
-
+connect sys/oracle as sysdba--Pour avoir les privileges admin 
+--Creation utilisateur restScott
 CREATE USER RESTSCOTT IDENTIFIED BY oracle DEFAULT TABLESPACE
 users QUOTA UNLIMITED ON users;
 
@@ -118,7 +119,7 @@ CREATE VIEW, CREATE SEQUENCE, CREATE TRIGGER,
 COMMENT ANY TABLE TO RESTSCOTT;
 
 grant dba to RESTSCOTT;
-
+--il faut donner ces privileges a RestScott pour pouvoir executer les commandes necessaires pour activer le mode REST
 GRANT INHERIT PRIVILEGES ON USER SCOTT TO RESTSCOTT
 
 BEGIN
@@ -132,14 +133,14 @@ BEGIN
  COMMIT;
 END;
 /
-
+--Activer mode Rest Pour chaque table
 BEGIN
  ORDS.enable_object(
  p_enabled => TRUE, -- Default  { TRUE | FALSE }
  p_schema => 'SCOTT',
  p_object => 'AUTRE_MARCHANDISE',
  p_object_type => 'TABLE', -- Default  { TABLE | VIEW }
- p_object_alias => 'AUTREMARCHANDISE'
+ p_object_alias => 'AUTREMARCHANDISE'-- deuxieme partie url
  );
  COMMIT;
 END;

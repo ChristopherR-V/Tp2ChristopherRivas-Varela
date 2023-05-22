@@ -7,6 +7,7 @@ function append(parent, el) {
 }
 
 let div_JeuConsole = document.getElementById("divJeuConsole");
+let div_JeuConsole2 = document.getElementById("divJeuConsole2");
 
 const urlJeu = "http://127.0.0.1:8080/ords/hr2/JEU/";
 
@@ -67,7 +68,6 @@ fetch(urlConsole)
     .then((resp) => resp.json())
     .then(function (data) {
         let consoles = data.items;
-        debugger;
         consoles.map(function(console){
             const imageConsoleUrl = "./Images/Icone_Console.png";
 
@@ -99,7 +99,7 @@ fetch(urlConsole)
             append(div,pMarque);
             append(div,pNomMagasin);
 
-            append(div_JeuConsole,div);
+            append(div_JeuConsole2,div);
 
 
         });

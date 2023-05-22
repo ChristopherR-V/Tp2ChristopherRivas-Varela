@@ -53,18 +53,8 @@ fetch(url)
 
     
         });
-    
-        /*let employees = data.items;//va chercher le résultat.items
-        return employees.map(function (employee) {//parcours la liste des employes
-            //le traitement de ma liste
-            let li = createNode("li");//creer le pico li
-            span = createNode("span");
-            span.innerHTML = `${employee.empno} ${employee.ename}`;
-            append(li, span);//ajout  sur le li le span
-            append(empl_ul, li);
-        })*/
+
     })
     .catch((error) => {
-        //convertit l'erreur sous forme JSON
         console.log(JSON.stringify(error));
     })
